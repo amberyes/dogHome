@@ -1,0 +1,76 @@
+.doges{
+    width:90%;
+    margin:0 auto
+}
+
+.tpf{
+    margin: 1em 0 1em;
+    padding:4px;
+    text-align:center;
+    background: #CCCCFF;
+    font-size: 20px;
+}
+.rtop h2,.rtop h3 {
+    color: #000033;
+    text-align: left;
+    font-weight: 100px;
+}
+.rtop h6{
+
+    color: #003366;
+}
+.rtop p{
+    text-indent: 2em;
+    color: #003366;
+}
+.rtop {
+    margin-top: 1em;
+    padding: 0 2em 1em;
+    border-style: solid;
+    border-color: #FFFF66;
+    border-width: 2px;
+    text-align: left;
+}
+.rimg img{
+    margin-top: 0.2em;
+    float: right;
+    height: 185px;
+}
+.ltop h2,.ltop h3 {
+    text-align: right;
+    font-weight: 100px;
+    color: #000033;
+}
+.ltop h6{
+    text-align: right;
+    color: #003366;
+}
+.ltop p{
+    text-align: right;
+    text-indent: 2em;
+    color: #003366;
+}
+.ltop {
+    margin-top: 1em;
+    padding: 0 2em 1em;
+    border-style: solid;
+    border-color: #FFFF66;
+    border-width: 2px;
+    text-align: left;
+}
+.limg img{
+    margin-top: 0.2em;
+    float: left;
+    height: 185px;
+}
+
+.footer-section{
+    padding:0 0;
+    text-align:center;
+    background: #ff9541;
+}
+.footer-top {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}

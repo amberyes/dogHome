@@ -1,0 +1,51 @@
+
+    /*基本公用样式 none;-webkit-user-select: none; */
+*{padding: 0;  margin: 0;}
+html {font-size: 62.5%; -webkit-text-size-adjust: 100%;}
+body, html { width: 100%; max-width: 750px;margin: 0 auto;font-family:PingFang SC Light,Lantinghei SC Light,Helvetica Neue Light,Helvetica Light,Arial,Microsoft YaHei Light,\\5FAE\8F6F\96C5\9ED1,STHeitiSC-Light,simsun,\\5B8B\4F53,WenQuanYi Zen Hei Light,WenQuanYi Micro Hei Light,"sans-serif"; }
+body {background: #fdc35f; overflow-x: hidden; }
+div,span { -webkit-tap-highlight-color: transparent;  box-sizing: border-box; }
+input,button{outline: none;border: none;background: none;}
+input{width: 100%;}
+.bg-white{background: #fff;}
+
+
+/*弹出层*/
+
+.ver-info{width: 90%;background:-webkit-linear-gradient(bottom,#f19400,#ffbd11);border-radius: 20px;margin: 0 auto;}
+.ver-info .pp{padding: 40px 20px;}
+.ver-info .pp-1{padding: 30px 20px;}
+.ver-info .m-b{margin-bottom: 10px;}
+.ver-info input{width:100%;padding: 14px 0 14px 10px;box-sizing: border-box;}
+.ver-info input::-webkit-input-placeholder{color: #8a8a8a;}
+.ver-info .p-code{width:100px;background: #ffe011;margin-left: 10px;color: #e72d2d;padding: 14px 0;}
+.ver-info .text{font-size: 1.5rem;line-height: 18px;border-radius: 3px;}
+.ver-but{width: 50%;height: 45px;margin: 10px auto 0 auto;background: url("../images/share-10.png") no-repeat;background-size: 100% 100%;font-size: 2.1rem;color: #fff;line-height: 43px;}
+.close{position: absolute;top:-10px;right: -10px;width: 30px;height: 30px;}
+.ver-info .textP{color:#b70000;font-size: 1.6rem;line-height: 23px;}
+.download{width: 250px;height: 280px;margin: 0 auto;background: url("../images/share-9.png")no-repeat;background-size: 100% 100%;}
+.download p{padding: 170px 25px 0 25px;font-size: 1.6rem;line-height: 21px;}
+
+/*
+**盒模型样式**
+*/
+.grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+}
+.grid > .grid-cell {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.grid > .grid-cell-2 {
+    -webkit-box-flex: 0.5;
+    box-flex: 0.5;
+    -webkit-flex: 2;
+    flex: 2;
+}
