@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="default" extends="struts-default">
+        <action name="login" class="action.LoginAction">
+            <result name="success">/usertb.jsp</result>
+            <result name="error">/login.jsp</result>
+        </action>
+        <action name="registeraction" class="action.UsAction" method="intUserInfo">
+            <result name="success">/login.jsp</result>
+            <result name="error">/register.jsp</result>
+        </action>
+        <action name="deteUsInfo" class="action.UsAction" method="deteUserInfo">
+            <result name="success">/login.jsp</result>
+            <result name="error">/register.jsp</result>
+        </action>
+        <action name="turnTo" class="action.TurnToliuyanAction">
+            <result name="success">/ysly.jsp</result>
+        </action>
+        <action name="findMm" class="action.TurnToliuyanAction">
+            <result name="success">/find.jsp</result>
+        </action>
+        <action name="lyaction" class="action.LyAction">
+            <result name="success">/liuyxs.jsp</result>
+            <result name="error">/ysly.jsp</result>
+        </action>
+
+        <action name="deletely" class="action.LyAction" method="detOne">
+            <result name="success">/success.jsp</result>
+        </action>
+        <action name="graction" class="action.LyAction" method="getOne">
+            <result name="success">/grly.jsp</result>
+        </action>
+        <action name="addaction" class="action.LyAction" method="addlysInfo">
+            <result name="success">/success.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        <action name="usInfo" class="action.UsAction">
+            <result name="success">/usinfo.jsp</result>
+        </action>
+        <action name="findm" class="action.UsAction" method="findus">
+            <result name="success">/changem.jsp</result>
+            <result name="error">/find.jsp</result>
+        </action>
+        <action name="cham" class="action.UsAction" method="chanus">
+            <result name="success">/login.jsp</result>
+        </action>
+        <action name="updateUsInfo" class="action.UsAction" method="updateUsInfo">
+            <result name="success">/upusinfo.jsp</result>
+        </action>
+        <action name="updateUs" class="action.UsAction" method="updateUs">
+            <result name="success">/success.jsp</result>
+        </action>
+        <action name="udog" class="action.DogAction" >
+            <result name="success">/dogall.jsp</result>
+        </action>
+        <action name="dadd" class="action.DogAction" method="addes">
+            <result name="success">/dogall.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        <action name="deletedog" class="action.DogAction" method="dete">
+            <result name="success">/success.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+    </package>
+</struts>
