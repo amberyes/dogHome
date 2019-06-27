@@ -2,7 +2,7 @@
  
 ## 1.Web界面  
 
- <img src="webimg/index.jpg" width="500px" height="620px">
+ <img src="webimg/index.jpg" width="500px" height="610px">
 
 ## 2.主要功能  
 
@@ -11,5 +11,5 @@
 
 ### 2）留言功能（留言的增删改查）  
 
-<img src="webimg/ly.jpg" width="500px" height="270px">
+<img src="webimg/ly.jpg" width="500px" height="240px">
 
